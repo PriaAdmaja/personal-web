@@ -1,0 +1,4 @@
+.banner-container {
+    background-color: var(--primary-bg-color);
+    height: calc(100vh - 70px);
+}

@@ -47,14 +47,12 @@
   align-items: center;
   gap: 2px;
   cursor: pointer;
+  transition: all ease-in 1s;
 }
 
-.menu-header:hover {
-  color: var(--secondary-color);
-}
-
-.menu-header:hover > div {
+/* .menu-header:hover > div {
   transition: ease-out 1s;
   opacity: 100;
-  border-color: var(--secondary-color);
-}
+} */
+
+
