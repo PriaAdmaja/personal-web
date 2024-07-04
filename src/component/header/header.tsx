@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 const Header = () => {
   const border = {
     initial: { opacity: 0 },
-    hover: { opacity: 100, transition: { duration: 0.5 } }
+    hover: { opacity: 100, transition: { duration: 1.5 } },
   };
+
   return (
     <header className="header">
       <p className="rock-salt-regular main-head">Pria</p>

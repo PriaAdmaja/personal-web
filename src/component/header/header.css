@@ -24,7 +24,7 @@
   opacity: 0;
   width: 10px;
   height: 20px;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
   border-style: solid;
   border-width: 1.5px;
   border-right: none;
@@ -34,7 +34,7 @@
   opacity: 0;
   width: 10px;
   height: 20px;
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
   border-style: solid;
   border-width: 1.5px;
   border-left: none;
@@ -50,9 +50,8 @@
   transition: all ease-in 1s;
 }
 
-/* .menu-header:hover > div {
-  transition: ease-out 1s;
-  opacity: 100;
-} */
+.menu-header:hover {
+  color: var(--secondary-color)
+}
 
 
