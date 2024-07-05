@@ -47,11 +47,9 @@
   align-items: center;
   gap: 2px;
   cursor: pointer;
-  transition: all ease-in 1s;
 }
 
 .menu-header:hover {
   color: var(--secondary-color)
 }
-
 

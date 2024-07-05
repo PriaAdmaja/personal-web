@@ -1,23 +1,49 @@
 .banner-container {
-    background-color: var(--primary-bg-color);
-    height: calc(100vh - 70px);
-    position: relative;
-    padding: 0 100px;
+  background-color: var(--primary-bg-color);
+  height: calc(100vh - 70px);
+  position: relative;
+  padding: 0 100px;
+  overflow: hidden;
+}
+
+.greeting {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
 }
 
 .profile {
-    width: 400px;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 400px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.brush {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  bottom: -170px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-25deg);
+  filter: invert(39%) sepia(43%) saturate(525%) hue-rotate(131deg)
+    brightness(91%) contrast(95%);
 }
 
 .intro {
-    font-size: 80px;
-    font-weight: 600;
-    padding-top: 70px;
-    line-height: 90px;
-    color: var(--primary-color)
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 90px;
+  color: var(--primary-color);
+}
+
+.first-introduce {
+  font-size: 24px;
+  font-weight: 400;
+  /* line-height: 90px; */
+  color: var(--primary-color);
 }
