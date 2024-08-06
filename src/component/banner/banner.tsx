@@ -1,12 +1,11 @@
 import "./banner.css";
-import profilePict from "../../assets/profile.webp";
-import brush from "../../assets/brush.webp";
+// import profilePict from "../../assets/profile.webp";
+import Profile from "./profile";
 
 const Banner = () => {
   return (
     <section className="banner-container">
-      <img src={brush} alt="brush" className="brush" />
-      <img src={profilePict} alt="profile" className="profile" />
+      <Profile />
       <div className="greeting">
         <p className="intro">
           Hey There,
@@ -14,8 +13,8 @@ const Banner = () => {
           I'm Pria
         </p>
         <p className="first-introduce">
-          Web Developer, <br />
-          with more than 1 year experience
+          Professional Front End Developer <br />
+          from Malang, Indonesia
         </p>
       </div>
     </section>
