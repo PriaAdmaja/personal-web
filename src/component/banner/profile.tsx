@@ -8,12 +8,14 @@ const Profile = () => {
   const [showAvatar, setShowAvatar] = useState(false);
   return (
     <section>
-      <img
-        src={brush}
-        alt="brush"
-        className="brush"
-        onLoad={() => setTimeout(() => setShowAvatar(true), 300)}
-      />
+      <FadeInWhenVisible>
+        <img
+          src={brush}
+          alt="brush"
+          className="brush"
+          onLoad={() => setTimeout(() => setShowAvatar(true), 1000)}
+        />
+      </FadeInWhenVisible>
       {showAvatar && (
         <FadeInWhenVisible>
           <img src={profilePict} alt="profile" className="profile" />
