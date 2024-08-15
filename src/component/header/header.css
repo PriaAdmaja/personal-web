@@ -40,6 +40,10 @@
   border-left: none;
 }
 
+.border-show {
+  opacity: 100;
+}
+
 .menu-header {
   padding: 1px 10px;
   display: flex;
@@ -49,7 +53,10 @@
   cursor: pointer;
 }
 
-.menu-header:hover {
-  color: var(--secondary-color)
+.menu-header-active {
+  color: var(--secondary-color);
 }
 
+.menu-header:hover {
+  color: var(--secondary-color);
+}

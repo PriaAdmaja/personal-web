@@ -1,10 +1,10 @@
 .banner-container {
   background-color: var(--primary-bg-color);
-  height: calc(100vh - 70px);
-  max-height: 800px;
+  height: 100%;
   position: relative;
   padding: 0 100px;
   overflow: hidden;
+  flex: 1 1 0%
 }
 
 .greeting {
@@ -16,7 +16,7 @@
 }
 
 .profile {
-  width: 400px;
+  width: 50vh;
   height: auto;
   position: absolute;
   bottom: 0;
@@ -25,10 +25,10 @@
 }
 
 .brush {
-  width: 800px;
+  width: 110vh;
   height: auto;
   position: absolute;
-  bottom: -170px;
+  bottom: -25%;
   left: 50%;
   transform: translateX(-50%) rotate(-25deg);
   filter: invert(39%) sepia(43%) saturate(525%) hue-rotate(131deg)
